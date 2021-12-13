@@ -1,0 +1,16 @@
+{
+  "coc.preferences.jumpCommand": "tabe",
+  "python.linting.enabled": false,
+  "python.linting.flake8Enabled": true,
+  "python.linting.pylintEnabled": true,
+  "pyright.organizeimports.provider": "isort",
+  "coc.preferences.formatOnSaveFiletypes": [
+    "go",
+    "python",
+    "markdown",
+    "javascript",
+    "typescript",
+    "json",
+    "jsonc"
+  ]
+}
