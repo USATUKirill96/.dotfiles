@@ -40,6 +40,6 @@ alias mypoetry='source .venv/bin/activate'
 alias mydc="docker-compose up -d"
 alias myclean='find . -name "*.pyc" -delete'
 alias lzd="lazydocker"
-
+alias lzg="~/apps/lazygit/main"
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
