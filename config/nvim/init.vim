@@ -81,15 +81,6 @@ Plug 'mhartington/oceanic-next'
 Plug 'kaicataldo/material.vim', { 'branch': 'main' }
 Plug 'ayu-theme/ayu-vim'
 
-if has('termguicolors')
-  set termguicolors
-endif
-" The configuration options should be placed before `colorscheme sonokai`.
-colorscheme sonokai
-let g:sonokai_style = 'andromeda'
-let g:sonokai_enable_italic = 1
-let g:sonokai_disable_italic_comment = 1
-
 "colorscheme everforest
 "set background=light
 "let g:everforest_background = 'soft'
@@ -294,3 +285,12 @@ Plug 'maxmellon/vim-jsx-pretty'
 
 call plug#end()
 
+if has('termguicolors')
+  set termguicolors
+endif
+
+" The configuration options should be placed before `colorscheme sonokai`.
+colorscheme sonokai
+let g:sonokai_style = 'andromeda'
+let g:sonokai_enable_italic = 1
+let g:sonokai_disable_italic_comment = 1
