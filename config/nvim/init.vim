@@ -73,6 +73,14 @@ nnoremap ,<space> :nohlsearch<CR>
 
 call plug#begin('~/.vim/plugged')
 
+"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Session ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Plug 'rmagatti/auto-session'
+
+
+"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Database ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Plug 'tpope/vim-dadbod'
+
+
 "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  Themes  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Plug 'sainnhe/sonokai'
 Plug 'sainnhe/everforest'

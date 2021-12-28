@@ -31,6 +31,8 @@ COMPLETION_WAITING_DOTS="true"
 # much, much faster.
 # DISABLE_UNTRACKED_FILES_DIRTY="true"
 
+export EDITOR="nvim"
+
 plugins=(git pyenv colored-man-pages zsh-autosuggestions jump sudo virtualenv asdf zsh-syntax-highlighting history-substring-search web-search history)
 
 source $ZSH/oh-my-zsh.sh
@@ -41,5 +43,6 @@ alias mydc="docker-compose up -d"
 alias myclean='find . -name "*.pyc" -delete'
 alias lzd="lazydocker"
 alias lzg="~/apps/lazygit/main"
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
