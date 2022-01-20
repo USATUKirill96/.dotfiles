@@ -5,6 +5,9 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
+# init zoxide
+eval "$(zoxide init zsh)"
+
 # Set threshold to 20seconds
 export AUTO_NOTIFY_THRESHOLD=5
 
