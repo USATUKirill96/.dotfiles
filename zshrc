@@ -39,6 +39,12 @@ COMPLETION_WAITING_DOTS="true"
 
 export EDITOR="nvim"
 
+# Bat aliases. Only use if bat and bat-extras installed
+alias bat="batcat"
+alias rg="batgrep"
+alias fzf="fzf --preview 'batcat --color=always --style=numbers --line-range=:500 {}'"
+alias man="batman"
+
 plugins=(git pyenv colored-man-pages zsh-autosuggestions jump sudo virtualenv asdf zsh-syntax-highlighting history-substring-search web-search history auto-notify $plugins)
 
 source $ZSH/oh-my-zsh.sh
