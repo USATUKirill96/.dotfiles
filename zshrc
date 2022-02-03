@@ -58,3 +58,10 @@ alias lzg="~/apps/lazygit/main"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# The next line updates PATH for Yandex Cloud CLI.
+if [ -f '/home/aaron/yandex-cloud/path.bash.inc' ]; then source '/home/aaron/yandex-cloud/path.bash.inc'; fi
+
+# The next line enables shell command completion for yc.
+if [ -f '/home/aaron/yandex-cloud/completion.zsh.inc' ]; then source '/home/aaron/yandex-cloud/completion.zsh.inc'; fi
+
