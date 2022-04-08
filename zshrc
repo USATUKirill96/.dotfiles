@@ -9,7 +9,7 @@ fi
 eval "$(zoxide init zsh)"
 
 # Set threshold to 20seconds
-export AUTO_NOTIFY_THRESHOLD=5
+export AUTO_NOTIFY_THRESHOLD=20
 
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:$PATH
