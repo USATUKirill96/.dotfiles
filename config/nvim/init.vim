@@ -282,7 +282,6 @@ Plug 'liuchengxu/eleline.vim'
 " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  Commenter  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Plug 'preservim/nerdcommenter'
 
-
 "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  For JS/JSX  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Plug 'yuezk/vim-js'
 Plug 'maxmellon/vim-jsx-pretty'

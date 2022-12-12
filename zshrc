@@ -45,7 +45,7 @@ alias rg="batgrep"
 alias fzf="fzf --preview 'batcat --color=always --style=numbers --line-range=:500 {}'"
 alias man="batman"
 
-plugins=(git pyenv colored-man-pages zsh-autosuggestions jump sudo virtualenv asdf zsh-syntax-highlighting history-substring-search web-search history auto-notify $plugins)
+plugins=(git pyenv colored-man-pages zsh-autosuggestions jump sudo virtualenv asdf zsh-syntax-highlighting history-substring-search web-search history $plugins)
 
 source $ZSH/oh-my-zsh.sh
 
